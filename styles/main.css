@@ -10,11 +10,6 @@
 }
 
 
-.carousel-inner{
-  width:10px;
-  height:60px;
-}
-
 .sidebar-menu a img{
   /* visibility: hidden; */
   height: 30px;
@@ -24,6 +19,21 @@
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+.sidebar-menu a i{
+  height: 5px;
+
+}
+
+.sidebar-menu a:hover i{
+  margin-left: 5px;
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+}
 
 .sidebar-menu a:hover img{
   margin-left: 30px;
@@ -32,4 +42,8 @@
 -o-transform: rotate(-4deg);
 -ms-transform: rotate(-4deg);
 transform: rotate(-4deg);
+}
+
+.text-center {
+    text-align: center;
 }
